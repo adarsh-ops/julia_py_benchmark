@@ -89,3 +89,24 @@ memory estimate:  336 bytes
   evals/sample:     1
 
 ```
+
+<br>
+
+### Summary
+
+- **Julia vs Opencv vs Numpy**
+  <br>
+  <br>
+  As you can see, the winners of this benchmark where python's Opencv and Numpy (though the results varied based on the
+  resolutions of the images, both had almost similar results).
+
+  This doesn't mean that Julia is under performing compared to python, it's that both Python's Numpy and OpenCV are
+  heavily optimized libraries specifically designed to perform such computationally expensive tasks. And julia was able
+  to perform as close to Numpy in some tasks.
+
+<br>
+
+- **Julia loop vs Python loop**
+  <br>
+  <br>
+  From this benchmark result, you can clearly see that Julia certainly performed 40x better than python
